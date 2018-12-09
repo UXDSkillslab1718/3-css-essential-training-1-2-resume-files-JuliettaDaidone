@@ -9,9 +9,20 @@
 /* Global styles
 -----------------------------*/
 body {
-
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2 {
+	font-family: 'Lobster', cursive;
 }
 
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+
+}
 a {
 	color: #c4d7f2
 
