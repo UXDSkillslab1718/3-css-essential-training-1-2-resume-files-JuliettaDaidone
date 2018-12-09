@@ -1,3 +1,48 @@
+/* Color Palette
+#c4d7f2 - light blue 
+#EDF2F4 - White
+#797a9e - lavender
+#534b62 - Dark Lavender
+#A499B3 - light Lavender
+----------------------------*/
+
+/* Global styles
+-----------------------------*/
 body {
-	background: lightgrey;
+
+}
+
+a {
+	color: #c4d7f2
+
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/* Header and footer
+-----------------------------*/
+header, footer {
+	background: #534B62;
+	color: #A499B3;
+}
+
+header h1, header h2 {
+	color: #c4d7f2;
+}
+
+/* Work Experience 
+-----------------------------*/
+.work {
+	background: #EDF2F4;
+}
+
+
+/* Education
+-----------------------------*/
+
+.education {
+	background: #A499B3;
 }
