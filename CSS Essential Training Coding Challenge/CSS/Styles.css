@@ -8,19 +8,28 @@
 
 /* Global styles
 -----------------------------*/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 h1, h2 {
 	font-family: 'Lobster', cursive;
 }
 
-h1 {
+h1 { 
 	font-size: 50px;
 }
 
 h2 {
 	font-size: 40px;
+	margin-top: 0;
 
 }
 a {
@@ -32,6 +41,24 @@ a:hover {
 	text-decoration: none;
 }
 
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: auto;
+}
+
+.col-narrow {
+	width: 30%;
+	float: left;
+	min-height: 175px;
+}
+
+.col-wide {
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+}
 
 /* Header and footer
 -----------------------------*/
@@ -40,8 +67,28 @@ header, footer {
 	color: #A499B3;
 }
 
+/* Header */
+
+.profile-img {
+	border-radius: 50%;
+}
+
+
 header h1, header h2 {
 	color: #c4d7f2;
+	margin: 0;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+}
+
+.content-info a {
+	padding: 10px;
+	display: inline-block;
+}
 }
 
 /* Work Experience 
