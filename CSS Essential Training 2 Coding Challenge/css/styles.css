@@ -47,16 +47,6 @@ a:hover {
   padding: 60px 50px;
   overflow: hidden;
 }
-.col-narrow {
-  width: 30%;
-  float: left;
-}
-
-.col-wide {
-  width: 70%;
-  float: left;
-  padding-left: 20px;
-}
 
 .uppercase {
   text-transform: uppercase;
@@ -90,6 +80,10 @@ header h1, header h2 {
 .profile-img {
   border-radius: 50%;
 }
+
+/* download button 
+----------------------*/
+
 .download {
   position: absolute;
   bottom: 0;
@@ -97,8 +91,9 @@ header h1, header h2 {
 }
 
 
+/* footer 
+------------------------*/
 
-/* footer */
 footer {
   text-align: center;
 }
@@ -161,6 +156,30 @@ p + h3 {
 }
 
 
+/* Media Queries
+-------------------------*/
+
+@media (min-width: 900px) {
+  .col-narrow {
+  width: 30%;
+  float: left;
+}
+
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+}
+}
+
+@media (max-width: 899px) {
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
 
 
 
