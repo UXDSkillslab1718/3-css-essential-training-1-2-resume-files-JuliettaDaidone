@@ -64,7 +64,9 @@ a:hover {
 /* Header and Footer
 -------------------------*/
 header, footer {
-  background: url(../images/back.png) no-repeat fixed;
+  background: linear-gradient(rgba(164, 153, 179, 0.8), 
+    rgba(164, 153, 179, 0.5)),
+    url(../images/back.png) no-repeat fixed;
     background-size: cover; 
 }
 
@@ -132,6 +134,7 @@ nav a {
 
 h3 ~ p{
   margin: 0;
+  clear: both;
 }
 
 .job-description{
@@ -165,11 +168,21 @@ p + h3 {
   width: 30%;
   float: left;
 }
+}
 
+@media (min-width: 1000px) {
+.col-img {
+  width: 70%;
+  float: left;
+}
+}
+
+@media (min-width: 1000px) {
 .col-wide {
   width: 70%;
   float: left;
   padding-left: 20px;
+  min-height: 300px
 }
 }
 
@@ -182,7 +195,7 @@ p + h3 {
   }
 }
 
-/* Projects
+/* Project pictures
 -------------------------*/
 .projects {
   background: linear-gradient(rgba(164, 153, 179, 0.8), 
@@ -191,4 +204,6 @@ p + h3 {
     background-size: cover; 
 }
 
-
+.project {
+  border-radius: 10%;
+}
