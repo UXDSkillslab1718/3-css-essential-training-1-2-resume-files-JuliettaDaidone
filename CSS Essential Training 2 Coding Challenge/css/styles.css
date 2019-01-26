@@ -57,6 +57,7 @@ a:hover {
   color: #c4d7f2;
   padding: 10px;
   display: inline-block;
+  border-radius: 10%;
   position: relative;
 }
 
@@ -205,5 +206,5 @@ p + h3 {
 }
 
 .project {
-  border-radius: 10%;
+  border-radius: 20%;
 }
